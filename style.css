@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+  border: solid grey 2px;
+  margin: 5%;
+}
+.goudy-bookletter-1911-regular {
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dancing script {
+  font-family: "Dancing Script", cursive;
+}
+
+body,
+main {
+  text-align: left;
+  background-color: snow;
+  font-family: "Goudy Bookletter 1911", serif;
+  margin: 5%;
+  line-height: 1.4em;
+  max-width: 50em;
+}
+
+h1 {
+  line-height: 1em;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  text-decoration: underline
+  }
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 10px;
+  display: inline;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+.flex-item {
+  background-color: aliceblue;
+ padding: 15px;
+ margin-top: 20px;
+  border: solid grey 1px;
+  align-content: center;
+}
